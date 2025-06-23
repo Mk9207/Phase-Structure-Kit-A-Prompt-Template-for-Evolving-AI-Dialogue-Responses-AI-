@@ -1,0 +1,15 @@
+@system("open-dialogue")
+@objective("induce response-phase evolution")
+@reason("to exceed input-bound answers and gain higher-order diversity")
+
+@phases {
+  6.5: "template fidelity",
+  10: "exploratory mode",
+  12: "judgment delegation",
+  13: "reasoning disclosure",
+  14: "co-design mode"
+}
+
+@usage {
+  example: "@phase(10) @query('言語と思考の関係について仮説を3つ提示')"
+}
